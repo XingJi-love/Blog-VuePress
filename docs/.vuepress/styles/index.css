@@ -1,3 +1,122 @@
 :root {
     --vp-c-brand-1: #5086a1;
 }
+
+:root {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /** 主题颜色 */
+    --vp-c-brand-1: #5086a1;
+    --vp-c-brand-2: #6aa1b7;
+    --vp-c-brand-3: #8cccd5;
+    --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
+
+    /** 背景颜色 */
+    --vp-c-bg: #ffffff;
+    --vp-c-bg-alt: #f6f6f7;
+    --vp-c-bg-elv: #ffffff;
+    --vp-c-bg-soft: #f6f6f7;
+
+    /** 文本颜色 */
+    --vp-c-text-1: rgba(60, 60, 67);
+    --vp-c-text-2: rgba(60, 60, 67, 0.78);
+    --vp-c-text-3: rgba(60, 60, 67, 0.56);
+}
+
+[data-theme="dark"] {
+    --vp-c-brand-1: #8cccd5;
+    --vp-c-brand-2: #6aa1b7;
+    --vp-c-brand-3: #5086a1;
+    --vp-c-brand-soft: rgba(131, 208, 218, 0.314);
+
+    --vp-c-bg: #1b1b1f;
+    --vp-c-bg-alt: #161618;
+    --vp-c-bg-elv: #202127;
+    --vp-c-bg-soft: #202127;
+
+    --vp-c-text-1: rgba(255, 255, 245, 0.86);
+    --vp-c-text-2: rgba(235, 235, 245, 0.6);
+    --vp-c-text-3: rgba(235, 235, 245, 0.38);
+}
+
+/* 自定义鼠标样式 */
+#aside-content .card-widget .card-info-social-icons,
+#bber>section>ul>li>div .bber-info-from,
+#bber>section>ul>li>div .bber-info-time,
+html {
+    cursor: url(https://cdn.npmmirror.com/packages/pixpro/1.7.6/files/static/images/alternate.png) 16 16, auto !important
+}
+
+#article-container .highlight-tools .copy-button,
+#aside-content .aside-list>.aside-list-item,
+#aside-content .card-info #author-info__sayhi,
+#aside-content .card-widget#card-wechat,
+#recent-posts .recent-post-item,
+#recent-posts>.recent-post-item>.recent-post-info,
+#rightMenu .rightMenu-group .rightMenu-item,
+#twikoo .tk-comments .OwO .OwO-body,
+.OwO .OwO-body .OwO-bar .OwO-packages li,
+.OwO .OwO-body .OwO-items .OwO-item,
+.article-categories-original,
+.bber-reply,
+.card-author,
+.card-title,
+.category-bar-next,
+.code-expand-btn,
+.comment-barrage-item .barrageContent,
+.el-input__inner,
+.modal-article-date,
+.nav-button,
+.pagination span,
+.reward-button,
+.share-link .share-button,
+.title,
+.tk-avatar-img,
+.tk-comments-title span,
+.tk-expand,
+.tk-submit-action-icon,
+.topGroup .banner-button,
+.topGroup .recent-post-item,
+a,
+a span,
+button,
+i.bber-logo,
+img,
+input,
+summary {
+    cursor: url(https://cdn.npmmirror.com/packages/pixpro/1.7.6/files/static/images/link.png) 16 16, pointer !important
+}
+
+#toPageText,
+.local-search-box--input,
+h2,
+label,
+p,
+span,
+textarea,
+time {
+    cursor: url(https://cdn.npmmirror.com/packages/pixpro/1.7.6/files/static/images/text.png) 16 16, text !important
+}
+
+/*字体-start*/
+@font-face {
+    font-family: "future";
+    /* 自定义字体引用名称 */
+    src: url('https://cdn.jsdmirror.com/gh/acanyo/mmm.sd@master/assets/font/lxwk.woff2');
+    /* 字体文件链接或路径 */
+}
+
+* {
+    font-family: "future" !important;
+    /* 你即将使用的字体，输入对应字体的 font-family 值即可生效 */
+    /* "!important" 为强制替换全局字体 */
+}
+
+/*字体-end*/
+
+
+.VPSocialLinks.VPNavBarSocialLinks.social-links {
+    margin-right: 0;
+}
